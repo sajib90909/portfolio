@@ -24,7 +24,7 @@
         <h2 class="side-bar-title border-bottom">ERADEVS</h2>
         <ul>
             <li class="side-bar-item active">
-                <router-link class="text-decoration-none nav-link" to="/dashboard"><span class="side-bar-item-logo"><i class="fas fa-th-large"></i></span>Dashboard</router-link>
+                <router-link class="text-decoration-none nav-link" to="/admin-panel/dashboard"><span class="side-bar-item-logo"><i class="fas fa-th-large"></i></span>Dashboard</router-link>
             </li>
             <li class="side-bar-item">
                 <a href="" data-target="#about-me" aria-expanded="false" class="side-menu-dropdown text-decoration-none nav-link">
@@ -34,16 +34,16 @@
                 </a>
                 <ul class="dropdown-data pl-4" id="about-me" style="">
                     <li class="">
-                        <router-link to="/basic" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Basic</router-link>
+                        <router-link to="/admin-panel/basic" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Basic</router-link>
                     </li>
                     <li class="">
-                        <router-link to="/skill-area" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Skill Area</router-link>
+                        <router-link to="/admin-panel/skill-area" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Skill Area</router-link>
                     </li>
                     <li class="">
-                        <router-link to="/testimonial" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Testimonial</router-link>
+                        <router-link to="/admin-panel/testimonial" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Testimonial</router-link>
                     </li>
                     <li class="">
-                        <router-link to="/client" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Clients</router-link>
+                        <router-link to="/admin-panel/client" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Clients</router-link>
                     </li>
                 </ul>
             </li>
@@ -55,28 +55,28 @@
                 </a>
                 <ul class="dropdown-data pl-4" id="resume" style="">
                     <li class="">
-                        <router-link to="/education" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Education</router-link>
+                        <router-link to="/admin-panel/education" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Education</router-link>
                     </li>
                     <li>
-                        <router-link to="/experience" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Experience</router-link>
+                        <router-link to="/admin-panel/experience" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Experience</router-link>
                     </li>
                     <li>
-                        <router-link to="/certificate" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Certificate</router-link>
+                        <router-link to="/admin-panel/certificate" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Certificate</router-link>
                     </li>
                     <li>
-                        <router-link to="/codingskills" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Coding Skills</router-link>
+                        <router-link to="/admin-panel/codingskills" class="text-decoration-none nav-link"><span class="side-bar-sub-item-logo"><i class="far fa-circle"></i></span>Coding Skills</router-link>
                     </li>
 
                 </ul>
             </li>
             <li class="side-bar-item">
-                <router-link class="text-decoration-none nav-link" to="/portfolio"><span class="side-bar-item-logo"><i class="fab fa-blogger-b"></i></span>Portfolio</router-link>
+                <router-link class="text-decoration-none nav-link" to="/admin-panel/portfolio"><span class="side-bar-item-logo"><i class="fab fa-blogger-b"></i></span>Portfolio</router-link>
             </li>
             <li class="side-bar-item">
-                <router-link class="text-decoration-none nav-link" to="/blog"><span class="side-bar-item-logo"><i class="fab fa-blogger-b"></i></span>Blogs</router-link>
+                <router-link class="text-decoration-none nav-link" to="/admin-panel/blog"><span class="side-bar-item-logo"><i class="fab fa-blogger-b"></i></span>Blogs</router-link>
             </li>
             <li class="side-bar-item">
-                <router-link class="text-decoration-none nav-link" to="/settings"><span class="side-bar-item-logo"><i class="fas fa-tools"></i></span>Settings</router-link>
+                <router-link class="text-decoration-none nav-link" to="/admin-panel/settings"><span class="side-bar-item-logo"><i class="fas fa-tools"></i></span>Settings</router-link>
             </li>
         </ul>
     </div>

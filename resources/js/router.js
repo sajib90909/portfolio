@@ -3,73 +3,73 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import firstpage from './components/pages/firstpage'
-import dashboard from './components/pages/dashboard'
-import basicPage from './components/pages/aboutMe/basicpage.vue'
-import clientPage from './components/pages/aboutMe/clientpage.vue'
-import skillAreaPage from './components/pages/aboutMe/skillAreapage.vue'
-import testimonialPage from './components/pages/aboutMe/testimonial.vue'
-import certificatePage from './components/pages/resume/certificatepage.vue'
-import codingSkillsPage from './components/pages/resume/codingSkilspage.vue'
-import educationPage from './components/pages/resume/educationpage.vue'
-import experiencePage from './components/pages/resume/experiencepage.vue'
-import portfolioPage from './components/pages/portfoliopage'
-import blogPage from './components/pages/blogpage'
-import settingPage from './components/pages/settings'
+import firstpage from './components/admin-panel/pages/firstpage'
+import dashboard from './components/admin-panel/pages/dashboard'
+import basicPage from './components/admin-panel/pages/aboutMe/basicpage.vue'
+import clientPage from './components/admin-panel/pages/aboutMe/clientpage.vue'
+import skillAreaPage from './components/admin-panel/pages/aboutMe/skillAreapage.vue'
+import testimonialPage from './components/admin-panel/pages/aboutMe/testimonial.vue'
+import certificatePage from './components/admin-panel/pages/resume/certificatepage.vue'
+import codingSkillsPage from './components/admin-panel/pages/resume/codingSkilspage.vue'
+import educationPage from './components/admin-panel/pages/resume/educationpage.vue'
+import experiencePage from './components/admin-panel/pages/resume/experiencepage.vue'
+import portfolioPage from './components/admin-panel/pages/portfoliopage'
+import blogPage from './components/admin-panel/pages/blogpage'
+import settingPage from './components/admin-panel/pages/settings'
 
 const routes = [
     {
-        path: '/first-page',
+        path: '/admin-panel/first-page',
         component: firstpage
     },
     {
-        path: '/dashboard',
+        path: '/admin-panel/dashboard',
         component: dashboard,
         meta: {title: 'Dashboard'}
     },
     {
-        path: '/basic',
+        path: '/admin-panel/basic',
         component: basicPage,
         meta: {title: 'Basic Info'}
     },
     {
-        path: '/client',
+        path: '/admin-panel/client',
         component: clientPage
     },
     {
-        path: '/skill-area',
+        path: '/admin-panel/skill-area',
         component: skillAreaPage
     },
     {
-        path: '/testimonial',
+        path: '/admin-panel/testimonial',
         component: testimonialPage
     },
     {
-        path: '/certificate',
+        path: '/admin-panel/certificate',
         component: certificatePage
     },
     {
-        path: '/codingSkills',
+        path: '/admin-panel/codingSkills',
         component: codingSkillsPage
     },
     {
-        path: '/education',
+        path: '/admin-panel/education',
         component: educationPage
     },
     {
-        path: '/experience',
+        path: '/admin-panel/experience',
         component: experiencePage
     },
     {
-        path: '/portfolio',
+        path: '/admin-panel/portfolio',
         component: portfolioPage
     },
     {
-        path: '/blog',
+        path: '/admin-panel/blog',
         component: blogPage
     },
     {
-        path: '/settings',
+        path: '/admin-panel/settings',
         component: settingPage
     },
 

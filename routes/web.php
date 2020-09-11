@@ -19,6 +19,6 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/', function () {
 //    return view('master');
 //});
-Route::any('{slug}',function (){
+Route::any('admin-panel/{slug}',function (){
    return view('master');
 });
